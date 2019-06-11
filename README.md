@@ -29,7 +29,6 @@ Bill of Materials (BOM) for [SemanticCMS Dia](https://github.com/aoindustries/se
 ## Managed Dependencies
 * [SemanticCMS Dia All](https://github.com/aoindustries/semanticcms-dia-all)
 * [SemanticCMS Dia Model](https://github.com/aoindustries/semanticcms-dia-model)
-* [SemanticCMS Dia Renderer HTML](https://github.com/aoindustries/semanticcms-dia-renderer-html)
 * [SemanticCMS Dia Servlet](https://github.com/aoindustries/semanticcms-dia-servlet)
 * [SemanticCMS Dia Style](https://github.com/aoindustries/semanticcms-dia-style)
 * [SemanticCMS Dia Taglib](https://github.com/aoindustries/semanticcms-dia-taglib)

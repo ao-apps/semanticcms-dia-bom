@@ -35,7 +35,7 @@ along with semanticcms-dia-bom.  If not, see <http://www.gnu.org/licenses />.
 		description="@{documented.description}"
 		datePublished="2019-06-11T00:50:28-0500"
 	>
-		<core:child page="changelog" />
+		<core:child page="changelog.jspx" />
 		<header>
 			<ao:include
 				page="/ao-badges/badges.inc.jspx"
@@ -47,25 +47,24 @@ along with semanticcms-dia-bom.  If not, see <http://www.gnu.org/licenses />.
 			/>
 		</header>
 		<p>
-			Bill of Materials (BOM) for <core:link book="/dia" page="/" /> features.
+			Bill of Materials (BOM) for <core:link book="/dia" page="/index.jspx" /> features.
 		</p>
 		<section:nav label="Project Links">
 			<ul>
-				<li><core:link page="/">Project Home</core:link></li>
-				<li><core:link page="changelog">Changelog</core:link></li>
+				<li><core:link page="index.jspx">Project Home</core:link></li>
+				<li><core:link page="changelog.jspx">Changelog</core:link></li>
 				<li><ao:a href="https://search.maven.org/#search%7Cgav%7C1%7Cg:%22@{documented.groupId}%22%20AND%20a:%22@{documented.artifactId}%22">Maven Central Repository</ao:a></li>
 				<li><ao:a href="@{documented.scm.url}">GitHub</ao:a></li>
 			</ul>
 		</section:nav>
 		<section:section label="Managed Dependencies">
 			<ul>
-				<li><core:link book="/dia/all" page="/" /></li>
-				<li><core:link book="/dia/model" page="/" /></li>
-				<li><core:link book="/dia/renderer/html" page="/" /></li>
-				<li><core:link book="/dia/servlet" page="/" /></li>
-				<li><core:link book="/dia/style" page="/" /></li>
-				<li><core:link book="/dia/taglib" page="/" /></li>
-				<li><core:link book="/dia/view" page="/" /></li>
+				<li><core:link book="/dia/all" page="/index.jspx" /></li>
+				<li><core:link book="/dia/model" page="/index.jspx" /></li>
+				<li><core:link book="/dia/servlet" page="/index.jspx" /></li>
+				<li><core:link book="/dia/style" page="/index.jspx" /></li>
+				<li><core:link book="/dia/taglib" page="/index.jspx" /></li>
+				<li><core:link book="/dia/view" page="/index.jspx" /></li>
 			</ul>
 		</section:section>
 	</core:page>
