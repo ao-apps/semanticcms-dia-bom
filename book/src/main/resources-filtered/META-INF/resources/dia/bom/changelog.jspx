@@ -36,7 +36,7 @@ along with semanticcms-dia-bom.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2019-06-11T00:50:28-0500"
-		dateModified="2019-09-30T06:40:04-0500"
+		dateModified="2019-10-12T03:41:46-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-dia-bom:pom.version}" />
@@ -51,15 +51,24 @@ along with semanticcms-dia-bom.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			>
-				<ul>
-					<li>Updated version of <core:link book="/dia/all" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/dia/model" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/dia/servlet" page="/index.jspx" />.</li>
-					<li>Updated version of <core:link book="/dia/taglib" page="/index.jspx" />.</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.4.0"
+			datePublished="2019-10-12T03:41:46-0500"
+			groupId="@{documented.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{documented.scm.url}"
+		>
+			<ul>
+				<li>Updated version of <core:link book="/dia/all" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/dia/model" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/dia/servlet" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/dia/taglib" page="/index.jspx" />.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
