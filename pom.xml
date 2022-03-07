@@ -155,6 +155,16 @@ along with semanticcms-dia-bom.  If not, see <https://www.gnu.org/licenses/>.
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<!-- Reported by versions:display-dependency-updates -->
+			<dependency>
+				<groupId>com.aoapps</groupId><artifactId>ao-encoding</artifactId><version>6.0.1${POST-SNAPSHOT}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoapps</groupId><artifactId>ao-fluent-html-any</artifactId><version>0.7.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoapps</groupId><artifactId>ao-servlet-util</artifactId><version>5.1.0${POST-SNAPSHOT}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>
