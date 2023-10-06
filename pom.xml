@@ -29,7 +29,7 @@ along with semanticcms-dia-bom.  If not, see <https://www.gnu.org/licenses/>.
     <relativePath>../../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-bom</artifactId><version>1.7.3-POST-SNAPSHOT</version>
+  <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-bom</artifactId><version>1.8.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
@@ -106,7 +106,7 @@ along with semanticcms-dia-bom.  If not, see <https://www.gnu.org/licenses/>.
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-all</artifactId><version>1.7.3${POST-SNAPSHOT}</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-all</artifactId><version>1.8.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-model</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
@@ -118,14 +118,14 @@ along with semanticcms-dia-bom.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-style</artifactId><version>1.5.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-taglib</artifactId><version>1.9.0${POST-SNAPSHOT}</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-taglib</artifactId><version>1.10.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-view</artifactId><version>1.6.1${POST-SNAPSHOT}</version>
       </dependency>
       <!-- Imports -->
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-all</artifactId><version>1.7.3-POST-SNAPSHOT</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-all</artifactId><version>1.8.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -145,7 +145,7 @@ along with semanticcms-dia-bom.  If not, see <https://www.gnu.org/licenses/>.
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-taglib</artifactId><version>1.9.0-POST-SNAPSHOT</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-dia-taglib</artifactId><version>1.10.0-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
